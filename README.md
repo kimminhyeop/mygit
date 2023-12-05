@@ -85,7 +85,6 @@
 
 ## 개발환경
 - 깃허브 페이지 : javascript
-- 모바일 앱 : flutter, DART
 - 챗봇 : 카카오 i 오픈빌더, python
 
 
