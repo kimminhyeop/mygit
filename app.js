@@ -28,7 +28,6 @@ var markerImage = new kakao.maps.MarkerImage(imageSrc, imageSize);
 display_gps();
 
 /**
- * API 인용작성자 : KYS
  * @param {경도} x 
  * @param {위도} y
  * 경도 위도로 주소추출하는 함수   
@@ -62,7 +61,6 @@ const addressSearch = address => {
 
 /**
  * 카카오 API 문서 참조
- * API 참조코드 인용, 작성 : KYS
  * Display_gps
  * 초기화된 지도에 html geolocation 함수의 gps 값을 넣는 함수
  */
@@ -260,7 +258,6 @@ const searchKeyword = () => {
 }
 
 /**
- * 작성자 : kys  
  * 객체, 필드명, 검색값 으로 객체리스트속 키값에 검색어가 포함되있으면 객체 배열로 리턴
  * console.log(getObjectsSearch(jsonobj, '품목', '국수'));
  * const a = getObjectsSearch(jsonobj, '품목', '국수');
@@ -287,7 +284,6 @@ searchBtn.addEventListener('click', () => {
     addressFunction();
 });
 
-// 작성자 kys
 // 현재 sortRegionBox 값에 따라서 컨텐츠 값을 리턴해주는 함수
 // 자바스크립트 미흡으로 함수로 비동기식으로 인한 오류가 발생할 수 있음
 function checkRegionValue(){
@@ -334,7 +330,6 @@ function checkRegionValue(){
 
 /**
  * 기존 정렬 펑션 수정
- * 작성자 KYS;
  * @param {*} now_content 원본 데이터값을 넣으면됩니다 (content 객체)
  * @param {*} key // 1 음식점, 2 이미용, 3 세탁업, 4 숙박업
  * @returns key 값에 따라서 리턴값 변경
