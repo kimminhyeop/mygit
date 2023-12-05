@@ -92,23 +92,6 @@
 
 
 
-
-
-
-# 팀원
-<p align="center">
-<table align="center" >
-   <tr>
-        <td align="center"><a href="https://github.com/SebellKo"><img src="https://github.com/SebellKo.png" width="100px;" alt=""/><br /><sub><b><br/>고세종</b></sub></a></td>
-        <td align="center"><a href="https://github.com/NAMUORI00"><img src="https://github.com/NAMUORI00.png" width="100px;" alt=""/><br /><sub><b><br/>김유석</b></sub></a></td>
-        <td align="center"><a href="https://github.com/jymh22"><img src="https://github.com/jymh22.png" width="100px;" alt=""/><br /><sub><b><br/>이홍규</b></sub></a></td>
-     <td align="center"><a href="https://github.com/claris0"><img src="https://github.com/claris0.png" width="100px;" alt=""/><br /><sub><b><br/>선종호</b></sub></a></td>
-   </tr>
-</table>
-
-
-
-
 # 라이선스(License List)
 
 # OSS Notice | STILL #
