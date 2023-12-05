@@ -8,7 +8,7 @@
 
 # 프로젝트의 결과물
 
-1. https://sebellko.github.io/-Still/ : 메인 서비스
+1. https://kimminhyeop.github.io/KMH.github.io/ : 메인 서비스
 2. https://pf.kakao.com/_xkxdxmxgb : 챗봇(데모)
 3. https://github.com/claris0/NearGoodPrice : 어플리케이션
 4. https://github.com/claris0/good-price-jeju : 모바일 페이지(데모)
