@@ -1,4 +1,3 @@
-// 20201013
 
 const jeonbukContents = [
  {
