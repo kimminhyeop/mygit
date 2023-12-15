@@ -1,4 +1,3 @@
-// _20210907
 
 const jeonnamContents = 
 [
