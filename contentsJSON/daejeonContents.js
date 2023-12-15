@@ -1,4 +1,3 @@
-// 20201116
 
 const daejeonContents = [
  {
