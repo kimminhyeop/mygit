@@ -30,7 +30,8 @@ display_gps();
 /**
  * @param {경도} x 
  * @param {위도} y
- * 경도 위도로 주소추출하는 함수   
+ * 경도 위도로 주소추출하는 함수 
+ * 작성자 : KMH
  */
 function getMylocation(x,y){
     var geocoder = new kakao.maps.services.Geocoder();
@@ -63,6 +64,7 @@ const addressSearch = address => {
  * 카카오 API 문서 참조
  * Display_gps
  * 초기화된 지도에 html geolocation 함수의 gps 값을 넣는 함수
+ * 작성자 : KMH
  */
 function display_gps(){
     if (navigator.geolocation) {
@@ -89,6 +91,7 @@ function display_gps(){
 
 // 지도에 마커와 인포윈도우를 표시하는 함수입니다
 // 지도 마커위치, 인포메이션 메세지값
+* 작성자 : KMH
 function displayMarker(locPosition, message) {
     // 마커를 생성합니다
     var marker = new kakao.maps.Marker({  
@@ -262,6 +265,7 @@ const searchKeyword = () => {
  * console.log(getObjectsSearch(jsonobj, '품목', '국수'));
  * const a = getObjectsSearch(jsonobj, '품목', '국수');
  * console.log(a[0].품목);
+ * 작성자 : KMH
 */
 function getObjectsSearch(obj, key, val) {
     var objects = [];
@@ -286,6 +290,7 @@ searchBtn.addEventListener('click', () => {
 
 // 현재 sortRegionBox 값에 따라서 컨텐츠 값을 리턴해주는 함수
 // 자바스크립트 미흡으로 함수로 비동기식으로 인한 오류가 발생할 수 있음
+* 작성자 : KMH
 function checkRegionValue(){
     if (sortRegionBox.value === 'jeju') {
         return jejuContents;
@@ -333,6 +338,7 @@ function checkRegionValue(){
  * @param {*} now_content 원본 데이터값을 넣으면됩니다 (content 객체)
  * @param {*} key // 1 음식점, 2 이미용, 3 세탁업, 4 숙박업
  * @returns key 값에 따라서 리턴값 변경
+ * 작성자 : KMH
  */
 function sortCategory2(now_content, key){
     let food = [];
