@@ -1,4 +1,3 @@
-// 20200803
 
 const kangwondoContents = [
  {
