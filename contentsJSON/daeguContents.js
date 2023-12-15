@@ -1,4 +1,3 @@
-// 20220331
 
 const daeguContents = [
  {
