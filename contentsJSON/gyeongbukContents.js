@@ -1,4 +1,4 @@
-// 20210916
+
 const gyeongbukContents = [
  {
   "구분": 1,
